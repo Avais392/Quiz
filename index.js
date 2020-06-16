@@ -52,7 +52,7 @@ console.log(req.body)
           to: "avais392@gmail.com",
           subject: "Congrtulation!!!",
           text: `Thank you taking quiz with us!\n\nForm details\nName: ${name}\n Email: ${email}\n Message: `,
-          html: <p>HTML version of the message</p>
+         
         },
         function(error, info) {
           if (error) {
